@@ -1,3 +1,0 @@
-D:/#Maljosco/Projects/DotDl/src/cmake-build-debug/CMakeFiles/Game.dir
-D:/#Maljosco/Projects/DotDl/src/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/#Maljosco/Projects/DotDl/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
