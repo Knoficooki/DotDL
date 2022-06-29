@@ -1,14 +1,14 @@
-//
-// Created by Kryotox on 29.05.2022.
-//
+#ifndef GAME_DOTDL_H
+#define GAME_DOTDL_H
+#endif GAME_DOTDL_H
 
 #include <string>
 #include <iostream>
+#include <fstream>
+#include "header/arrays.h"
+#include "header/utils.h"
+#include "header/items.h"
 #include "header/io.h"
-
-#ifndef GAME_DOTDL_H
-#define GAME_DOTDL_H
-#endif //GAME_DOTDL_H
 
 using namespace std;
 

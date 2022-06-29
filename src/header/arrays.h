@@ -1,12 +1,7 @@
-//
-// Created by Kryotox on 29.05.2022.
-//
-
 #ifndef GAME_ARRAYS_H
 #define GAME_ARRAYS_H
-
 #endif //GAME_ARRAYS_H
-#include "string"
+
 
 using namespace std;
 
