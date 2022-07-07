@@ -1,0 +1,49 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/DotDl.cpp
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Source is newer than graph
+        -:    1:
+        -:    2:#include "DotDl.h"
+        -:    3:
+        -:    4:using namespace std;
+        -:    5:
+function main called 1 returned 0% blocks executed 50%
+        1:    6:int main() {
+        1:    7:    log(date());
+        1:    7-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:    7-block  1
+call    4 returned 1
+    $$$$$:    7-block  2
+call    5 never executed
+    $$$$$:    7-block  3
+call    6 never executed
+        1:    8:    exeLog(execOut[0]);
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:    8-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:    8-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:    8-block  2
+call    9 never executed
+    $$$$$:    8-block  3
+    $$$$$:    8-block  4
+call   10 never executed
+        1:    9:    start();
+call    0 returned 0
+    #####:   10:    if (start() == 0){
+        -:   11:        exeLog(execOut[1] + "\n\t\tis this the end?")
+        -:   12:        return 0;
+        -:   13:    }
+        -:   14:    return 0;
+        -:   15:}

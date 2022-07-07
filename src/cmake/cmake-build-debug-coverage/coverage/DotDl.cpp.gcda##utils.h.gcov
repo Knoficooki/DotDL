@@ -1,0 +1,116 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/header/utils.h
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#ifndef GAME_UTILS_H
+        -:    2:#define GAME_UTILS_H
+        -:    3:#endif //GAME_UTILS_H
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+function _Z11searchValuePNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiRKS4_ called 0 returned 0% blocks executed 0%
+    #####:    7:int searchValue(string arr[], int size,const string& value) {
+    #####:    8:    for(int i=0;i<size;++i) {
+    %%%%%:    8-block  0
+    %%%%%:    8-block  1
+    %%%%%:    8-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:    9:        if(arr[i]==value) {
+    %%%%%:    9-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   10:            return i+1;
+    %%%%%:   10-block  0
+        -:   11:        }
+        -:   12:    }
+    #####:   13:    return 0;
+    %%%%%:   13-block  0
+        -:   14:}
+function _Z8outArrayPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi called 0 returned 0% blocks executed 0%
+    #####:   15:void outArray(string arr[], int size){
+    #####:   16:    for (int i = 0; i < size; ++i) {
+    %%%%%:   16-block  0
+    %%%%%:   16-block  1
+branch  0 never executed
+branch  1 never executed
+    #####:   17:        cout << " " << arr[i];
+    %%%%%:   17-block  0
+call    0 never executed
+call    1 never executed
+        -:   18:    }
+    #####:   19:}
+function _Z7help_jnt called 0 returned 0% blocks executed 0%
+    #####:   20:void help_jn(unsigned short length){
+    #####:   21:    cout << "Your choices are: " << "\n\n";
+    %%%%%:   21-block  0
+call    0 never executed
+call    1 never executed
+    #####:   22:    switch (length) {
+branch  0 never executed
+branch  1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:   23:        case 1: {
+    #####:   24:            outArray(Yes, 12);
+    %%%%%:   24-block  0
+call    0 never executed
+    #####:   25:            cout << "\n";
+call    0 never executed
+        -:   26:        }
+    #####:   27:        case 2: {
+    #####:   28:            outArray(Yes, 12);
+    %%%%%:   28-block  0
+call    0 never executed
+    #####:   29:            cout << "\n";
+call    0 never executed
+    #####:   30:            outArray(No, 5);
+call    0 never executed
+    #####:   31:            cout << "\n";
+call    0 never executed
+        -:   32:        }
+    #####:   33:        case 3: {
+    #####:   34:            outArray(Yes, 12);
+    %%%%%:   34-block  0
+call    0 never executed
+    #####:   35:            cout << "\n";
+call    0 never executed
+    #####:   36:            outArray(No, 5);
+call    0 never executed
+    #####:   37:            cout << "\n";
+call    0 never executed
+    #####:   38:            outArray(May, 10);
+call    0 never executed
+    #####:   39:            cout << "\n\n";
+call    0 never executed
+        -:   40:        }
+        -:   41:    }
+    #####:   42:}
+        -:   43:
+function _Z4dateB5cxx11v called 1 returned 100% blocks executed 75%
+        1:   44:string date() {
+        -:   45:    time_t timeToDay;
+        1:   46:    time(&timeToDay);
+        1:   46-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   47:    return asctime(localtime(&timeToDay));
+        1:   47-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   47-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   47-block  2
+call    8 returned 1
+        1:   47-block  3
+    $$$$$:   47-block  4
+call    9 never executed
+    $$$$$:   47-block  5
+        -:   48:}

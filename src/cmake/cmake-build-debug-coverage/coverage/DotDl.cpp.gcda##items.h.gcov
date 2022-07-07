@@ -1,0 +1,85 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/header/items.h
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#ifndef GAME_ITEMS_H
+        -:    2:#define GAME_ITEMS_H
+        -:    3:#endif //GAME_ITEMS_H
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+        -:    7:int itemCount;
+        -:    8:class item{
+        -:    9:private:
+        -:   10:    std::string I_name;
+        -:   11:    unsigned __int8 I_id;
+        -:   12:    int I_stdDamage;
+        -:   13:    double I_damage;
+        -:   14:public:
+        -:   15:    int level{};
+        -:   16:    item(std::string name, int stdDamage);
+        -:   17:    int getStdDamage() const {return I_stdDamage;}
+        -:   18:    double getIDamage() const {return I_damage;}
+        -:   19:    std::string getName() const {return I_name;}
+        -:   20:    unsigned __int8 getId() const {return I_id;}
+        -:   21:};
+        -:   22:
+function _ZN4itemC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEi called 0 returned 0% blocks executed 0%
+    #####:   23:item::item(std::string name, int stdDamage) {
+    %%%%%:   23-block  0
+call    0 never executed
+    #####:   24:    itemCount++;
+    #####:   25:    I_name = std::move(name);
+call    0 never executed
+call    1 never executed
+    #####:   26:    I_stdDamage = stdDamage;
+    #####:   27:    I_id = itemCount;
+    #####:   28:    I_damage = I_stdDamage * (level/2) + level%2;
+    #####:   29:    ILog(I_name + " of class item was created. ID:" + to_string(I_id));
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   29-block  0
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    %%%%%:   29-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:   29-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   29-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   29-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   29-block  5
+call   18 never executed
+call   19 never executed
+call   20 never executed
+call   21 never executed
+call   22 never executed
+    $$$$$:   29-block  6
+call   23 never executed
+    $$$$$:   29-block  7
+    $$$$$:   29-block  8
+call   24 never executed
+    $$$$$:   29-block  9
+    $$$$$:   29-block 10
+call   25 never executed
+    $$$$$:   29-block 11
+    $$$$$:   29-block 12
+call   26 never executed
+    $$$$$:   29-block 13
+    $$$$$:   29-block 14
+call   27 never executed
+    $$$$$:   29-block 15
+    #####:   30:}
+    $$$$$:   30-block  0
+call    0 never executed

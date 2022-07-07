@@ -1,0 +1,112 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/header/io.h
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#ifndef GAME_IO_H
+        -:    2:#define GAME_IO_H
+        -:    3:#endif //GAME_IO_H
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+function _Z2inRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb called 0 returned 0% blocks executed 0%
+    #####:    7:int in(const string& answer,bool resume) {
+    #####:    8:    if (resume){
+    %%%%%:    8-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:    9:        if (searchValue(Yes,12,answer)){
+    %%%%%:    9-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   10:            return 2;
+    %%%%%:   10-block  0
+        -:   11:        }
+    #####:   12:        if (searchValue(No, 5, answer)){
+    %%%%%:   12-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   13:            string input;
+    %%%%%:   13-block  0
+call    0 never executed
+    #####:   14:            cout<< "Wanna end this game?";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   15:            cin >> input;
+    %%%%%:   15-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   16:            cout<< "\n";
+    %%%%%:   16-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   17:            if (searchValue(Yes,12,input)) {
+    %%%%%:   17-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   18:                return 0;
+    %%%%%:   18-block  0
+        -:   19:            }
+    #####:   20:            if (searchValue(No,5,input)){
+    %%%%%:   20-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   21:                return 1;
+    %%%%%:   21-block  0
+        -:   22:            }
+    #####:   23:            if (input == "help") {
+    %%%%%:   23-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   24:                help_jn(2);
+    %%%%%:   24-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   25:                return 1;
+    %%%%%:   25-block  0
+        -:   26:            }
+    #####:   27:        }
+    %%%%%:   27-block  0
+    %%%%%:   27-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    $$$$$:   27-block  2
+call    3 never executed
+    #####:   28:        if (searchValue(May,10,answer)){
+    %%%%%:   28-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   29:            cout<< "Fuck you! \n";
+    %%%%%:   29-block  0
+call    0 never executed
+    #####:   30:            return 0;
+        -:   31:        }
+    #####:   32:        if (answer == "help") {
+    %%%%%:   32-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   33:            help_jn(3);
+    %%%%%:   33-block  0
+call    0 never executed
+    #####:   34:            return 1;
+        -:   35:        }else {
+    #####:   36:            cout << "Error: Your input is not correct please type 'help' for help!\n\n";
+    %%%%%:   36-block  0
+call    0 never executed
+    #####:   37:            return 1;
+        -:   38:        }
+        -:   39:    }
+    #####:   40:    return false;
+    %%%%%:   40-block  0
+        -:   41:}

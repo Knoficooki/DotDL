@@ -1,0 +1,86 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/header/log.h
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Source is newer than graph
+        -:    1:#ifndef GAME_LOG_H
+        -:    2:#define GAME_LOG_H
+        -:    3:#endif //GAME_LOG_H
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+        -:    7:unsigned long long logCount = 0;
+function _Z3logRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 2 returned 100% blocks executed 48%
+        2:    8:void log(const string& value) {
+        2:    9:    ofstream log_file("DotDl-RUN.log",ios_base::out | ios_base::app);
+        2:    9-block  0
+call    0 returned 2
+call    1 returned 2
+branch  2 taken 2 (fallthrough)
+branch  3 taken 0 (throw)
+        2:   10:    if (value.empty()){
+        2:   10-block  0
+call    0 returned 2
+branch  1 taken 0 (fallthrough)
+branch  2 taken 2
+    #####:   11:        ofstream  file("fio.log");
+    %%%%%:   11-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   12:        file << "";
+    %%%%%:   12-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   13:        return;
+    #####:   14:    }
+    %%%%%:   14-block  0
+call    0 never executed
+    $$$$$:   14-block  1
+call    1 never executed
+        2:   15:    log_file << to_string(++logCount) + "\t" +  value + "\n";
+        2:   15-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0 (throw)
+        2:   15-block  1
+call    3 returned 2
+branch  4 taken 2 (fallthrough)
+branch  5 taken 0 (throw)
+        2:   15-block  2
+call    6 returned 2
+branch  7 taken 2 (fallthrough)
+branch  8 taken 0 (throw)
+        2:   15-block  3
+call    9 returned 2
+branch 10 taken 2 (fallthrough)
+branch 11 taken 0 (throw)
+        2:   15-block  4
+call   12 returned 2
+branch 13 taken 2 (fallthrough)
+branch 14 taken 0 (throw)
+        2:   15-block  5
+call   15 returned 2
+call   16 returned 2
+call   17 returned 2
+call   18 returned 2
+    $$$$$:   15-block  6
+call   19 never executed
+    $$$$$:   15-block  7
+    $$$$$:   15-block  8
+call   20 never executed
+    $$$$$:   15-block  9
+    $$$$$:   15-block 10
+call   21 never executed
+    $$$$$:   15-block 11
+    $$$$$:   15-block 12
+call   22 never executed
+    $$$$$:   15-block 13
+        2:   16:}
+        2:   16-block  0
+call    0 returned 2
+branch  1 taken 2 (fallthrough)
+branch  2 taken 0
+    $$$$$:   16-block  1
+call    3 never executed

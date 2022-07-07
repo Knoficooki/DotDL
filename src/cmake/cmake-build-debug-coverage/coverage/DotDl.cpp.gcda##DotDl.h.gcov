@@ -1,0 +1,78 @@
+        -:    0:Source:D:/#Mapeco/Projects/DotDl/src/DotDl.h
+        -:    0:Graph:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcno
+        -:    0:Data:D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug-coverage\CMakeFiles\Game.dir\D_\#Mapeco\Projects\DotDl\src\DotDl.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Source is newer than graph
+        -:    1:#ifndef GAME_DOTDL_H
+        -:    2:#define GAME_DOTDL_H
+        -:    3:#endif //GAME_DOTDL_H
+        -:    4:
+        -:    5:#define exeLog(args) log("ExecutionHandler >> " + args + ";");
+        -:    6:#define ILog(args) log("ItemHandler >> " + args + ";");
+        -:    7:
+        -:    8:#include <string>
+        -:    9:#include <iostream>
+        -:   10:#include <fstream>
+        -:   11:#include "header/log.h"
+        -:   12:#include "header/arrays.h"
+        -:   13:#include "header/utils.h"
+        -:   14:#include "header/items.h"
+        -:   15:#include "header/io.h"
+        -:   16:
+        -:   17:using namespace std;
+        -:   18:
+function _Z5startv called 1 returned 0% blocks executed 22%
+        1:   19:int start(){
+        1:   20:    START:
+        1:   21:    string input;
+        1:   21-block  0
+call    0 returned 1
+    $$$$$:   21-block  1
+call    1 never executed
+        1:   22:    cout << "You wanna start the game?";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   23:    cin >> input;cout << "\n";
+        1:   23-block  0
+call    0 returned 0
+branch  1 taken 0 (fallthrough)
+branch  2 taken 0 (throw)
+    %%%%%:   23-block  1
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+    #####:   24:    if (in(input,true)== 0){
+    %%%%%:   24-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   24-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:   25:        cout << "Bye\n\n";
+    %%%%%:   25-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   26:        return 0;
+    #####:   27:    }
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   27-block  1
+branch  3 never executed
+branch  4 never executed
+    #####:   28:    if (in(input,true)==1){
+    %%%%%:   28-block  0
+        -:   29:        goto START;
+    #####:   30:    }
+    %%%%%:   30-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   31:    cout<< "Let's go!\n";
+    #####:   32:
+    %%%%%:   32-block  0
+        -:   33:}
