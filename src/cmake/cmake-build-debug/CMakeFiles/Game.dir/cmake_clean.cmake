@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Game.dir/D_/#Maljosco/Projects/DotDl/src/DotDl.cpp.obj"
-  "CMakeFiles/Game.dir/D_/#Maljosco/Projects/DotDl/src/DotDl.cpp.obj.d"
+  "CMakeFiles/Game.dir/D_/#Mapeco/Projects/DotDl/src/DotDl.cpp.obj"
+  "CMakeFiles/Game.dir/D_/#Mapeco/Projects/DotDl/src/DotDl.cpp.obj.d"
   "Game.exe"
   "Game.exe.manifest"
   "Game.pdb"

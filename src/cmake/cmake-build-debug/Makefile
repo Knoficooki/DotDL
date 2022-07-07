@@ -56,10 +56,10 @@ RM = C:\Users\styz\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\b
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\#Maljosco\Projects\DotDl\src\cmake"
+CMAKE_SOURCE_DIR = "D:\#Mapeco\Projects\DotDl\src\cmake"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\#Maljosco\Projects\DotDl\src\cmake\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\#Maljosco\Projects\DotDl\src\cmake\cmake-build-debug\CMakeFiles" "D:\#Maljosco\Projects\DotDl\src\cmake\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug\CMakeFiles" "D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\#Maljosco\Projects\DotDl\src\cmake\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ Game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make CMakeFiles/Game.dir/build
 .PHONY : Game/fast
 
-D_/\#Maljosco/Projects/DotDl/src/DotDl.obj: D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.obj
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.obj
+D_/\#Mapeco/Projects/DotDl/src/DotDl.obj: D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.obj
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.obj
 
 # target to build an object file
-D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Maljosco/Projects/DotDl/src/DotDl.cpp.obj"
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.obj
+D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Mapeco/Projects/DotDl/src/DotDl.cpp.obj"
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.obj
 
-D_/\#Maljosco/Projects/DotDl/src/DotDl.i: D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.i
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.i
+D_/\#Mapeco/Projects/DotDl/src/DotDl.i: D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.i
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.i
 
 # target to preprocess a source file
-D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Maljosco/Projects/DotDl/src/DotDl.cpp.i"
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.i
+D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Mapeco/Projects/DotDl/src/DotDl.cpp.i"
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.i
 
-D_/\#Maljosco/Projects/DotDl/src/DotDl.s: D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.s
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.s
+D_/\#Mapeco/Projects/DotDl/src/DotDl.s: D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.s
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.s
 
 # target to generate assembly for a file
-D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Maljosco/Projects/DotDl/src/DotDl.cpp.s"
-.PHONY : D_/\#Maljosco/Projects/DotDl/src/DotDl.cpp.s
+D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Game.dir\build.make "CMakeFiles/Game.dir/D_/#Mapeco/Projects/DotDl/src/DotDl.cpp.s"
+.PHONY : D_/\#Mapeco/Projects/DotDl/src/DotDl.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Game
-	@echo ... D_/#Maljosco/Projects/DotDl/src/DotDl.obj
-	@echo ... D_/#Maljosco/Projects/DotDl/src/DotDl.i
-	@echo ... D_/#Maljosco/Projects/DotDl/src/DotDl.s
+	@echo ... D_/#Mapeco/Projects/DotDl/src/DotDl.obj
+	@echo ... D_/#Mapeco/Projects/DotDl/src/DotDl.i
+	@echo ... D_/#Mapeco/Projects/DotDl/src/DotDl.s
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 #ifndef GAME_DOTDL_H
 #define GAME_DOTDL_H
-#endif GAME_DOTDL_H
+#endif //GAME_DOTDL_H
 
 #include <string>
 #include <iostream>

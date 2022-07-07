@@ -1,4 +1,4 @@
-C:\Users\styz\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\#Maljosco\Projects\DotDl\src\cmake -B D:\#Maljosco\Projects\DotDl\src\cmake\cmake-build-debug
+C:\Users\styz\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\#Mapeco\Projects\DotDl\src\cmake -B D:\#Mapeco\Projects\DotDl\src\cmake\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@ C:\Users\styz\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5921.27\bin\cm
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/#Maljosco/Projects/DotDl/src/cmake/cmake-build-debug
+-- Build files have been written to: D:/#Mapeco/Projects/DotDl/src/cmake/cmake-build-debug

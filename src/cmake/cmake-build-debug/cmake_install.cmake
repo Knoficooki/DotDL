@@ -1,4 +1,4 @@
-# Install script for directory: D:/#Maljosco/Projects/DotDl/src/cmake
+# Install script for directory: D:/#Mapeco/Projects/DotDl/src/cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/#Maljosco/Projects/DotDl/src/cmake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/#Mapeco/Projects/DotDl/src/cmake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
