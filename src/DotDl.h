@@ -22,7 +22,6 @@ void start(){
     cin >> input;cout << "\n";
     if (in(input,true)== 0){
         cout << "Bye\n\n";
-
     }
     if (in(input,true)==1){
         goto START;
