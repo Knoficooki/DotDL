@@ -4,4 +4,4 @@ project(Game)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Game
-        ../DotDl.cpp)
+        ../DotDl.cpp ../header/log.h)

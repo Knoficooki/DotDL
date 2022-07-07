@@ -5,24 +5,27 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include "header/log.h"
 #include "header/arrays.h"
 #include "header/utils.h"
 #include "header/items.h"
 #include "header/io.h"
 
+#define exeLog(args) log("ExecutionHandler >> " + args + ";");
+
 using namespace std;
 
 void start(){
-    Later:
+    START:
     string input;
     cout << "You wanna start the game?";
     cin >> input;cout << "\n";
     if (in(input,true)== 0){
         cout << "Bye\n\n";
-        return;
+
     }
     if (in(input,true)==1){
-        goto Later;
+        goto START;
     }
     cout<< "Let's go!\n";
 

@@ -88,6 +88,9 @@
 		<Unit filename="D:/#Mapeco/Projects/DotDl/src/DotDl.h">
 			<Option target="Game"/>
 		</Unit>
+		<Unit filename="D:/#Mapeco/Projects/DotDl/src/header/log.h">
+			<Option target="Game"/>
+		</Unit>
 		<Unit filename="D:/#Mapeco/Projects/DotDl/src/cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

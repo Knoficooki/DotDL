@@ -1,6 +1,6 @@
 #ifndef GAME_IO_H
 #define GAME_IO_H
-#endif GAME_IO_H
+#endif //GAME_IO_H
 
 using namespace std;
 
