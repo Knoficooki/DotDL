@@ -40,3 +40,9 @@ void help_jn(unsigned short length){
         }
     }
 }
+
+string date() {
+    time_t timeToDay;
+    time(&timeToDay);
+    return asctime(localtime(&timeToDay));
+}

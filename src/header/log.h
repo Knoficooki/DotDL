@@ -6,7 +6,7 @@ using namespace std;
 
 unsigned long long logCount = 0;
 void log(const string& value) {
-    ofstream log_file("fio.log",ios_base::out | ios_base::app);
+    ofstream log_file("DotDl_RUN.log",ios_base::out | ios_base::app);
     if (value.empty()){
         ofstream  file("fio.log");
         file << "";

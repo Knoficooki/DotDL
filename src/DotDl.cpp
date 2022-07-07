@@ -4,10 +4,12 @@
 using namespace std;
 
 int main() {
-    time_t timeToDay;
-    time(&timeToDay);
-    log(asctime(localtime(&timeToDay)));
+    log(date());
     exeLog(execOut[0]);
     start();
+    if (start() == 0){
+        exeLog(execOut[1] + "\n\t\tis this the end?")
+        return 0;
+    }
     return 0;
 }

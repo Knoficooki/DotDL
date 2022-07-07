@@ -2,6 +2,9 @@
 #define GAME_DOTDL_H
 #endif //GAME_DOTDL_H
 
+#define exeLog(args) log("ExecutionHandler >> " + args + ";");
+#define ILog(args) log("ItemHandler >> " + args + ";");
+
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -11,17 +14,16 @@
 #include "header/items.h"
 #include "header/io.h"
 
-#define exeLog(args) log("ExecutionHandler >> " + args + ";");
-
 using namespace std;
 
-void start(){
+int start(){
     START:
     string input;
     cout << "You wanna start the game?";
     cin >> input;cout << "\n";
     if (in(input,true)== 0){
         cout << "Bye\n\n";
+        return 0;
     }
     if (in(input,true)==1){
         goto START;

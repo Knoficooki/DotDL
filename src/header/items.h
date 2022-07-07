@@ -2,8 +2,6 @@
 #define GAME_ITEMS_H
 #endif //GAME_ITEMS_H
 
-#define ILog(args) log("ItemHandler >> " + args + ";");
-
 using namespace std;
 
 int itemCount;
